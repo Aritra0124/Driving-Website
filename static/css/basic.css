@@ -15,6 +15,9 @@ body {
     padding: 0;
 }
 
+br{
+    line-height: 30px;
+}
 .navbar {
     background: url("/static/images/background.png") repeat-x top center;
 }
@@ -73,6 +76,12 @@ body {
 .mian_contain {
   margin: auto;
   width: 50%;
+  padding: 10px;
+}
+
+.mian_contain {
+  margin: auto;
+  width: 52%;
   padding: 10px;
 }
 
@@ -206,6 +215,12 @@ body {
     width: 100%;
     height: 45vh;
   }
+
+.price_lists .display-4{
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
 .display-4 {
     font-size: 30px;
   }
